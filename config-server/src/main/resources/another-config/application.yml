@@ -1,0 +1,11 @@
+#global konfigurasi
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+      
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
