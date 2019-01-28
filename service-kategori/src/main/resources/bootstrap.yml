@@ -1,0 +1,9 @@
+#konfigurasi service-kategori
+spring:
+  application:
+    name: service-kategori
+  cloud:
+    config:
+      uri: http://localhost:8888
+server:
+  port: 8881

@@ -1,0 +1,12 @@
+insert into kategori(kategori_id, nama) values ('k001', 'peralatan elektronik');
+insert into kategori(kategori_id, nama) values ('k002', 'peralatan elektronik');
+insert into kategori(kategori_id, nama) values ('k003', 'peralatan elektronik');
+insert into kategori(kategori_id, nama) values ('k004', 'peralatan elektronik');
+insert into kategori(kategori_id, nama) values ('k005', 'peralatan elektronik');
+insert into kategori(kategori_id, nama) values ('k006', 'peralatan elektronik');
+insert into kategori(kategori_id, nama) values ('k007', 'peralatan elektronik');
+insert into kategori(kategori_id, nama) values ('k008', 'peralatan elektronik');
+insert into kategori(kategori_id, nama) values ('k009', 'peralatan elektronik');
+insert into kategori(kategori_id, nama) values ('k010', 'peralatan elektronik');
+insert into kategori(kategori_id, nama) values ('k011', 'peralatan elektronik');
+

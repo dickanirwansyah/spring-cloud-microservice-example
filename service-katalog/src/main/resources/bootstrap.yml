@@ -1,0 +1,10 @@
+server:
+  port: 8882
+
+spring:
+  application:
+    name: service-katalog
+  cloud:
+    config:
+      uri: http://localhost:8888
+      
