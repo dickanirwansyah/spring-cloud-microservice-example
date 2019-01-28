@@ -1,0 +1,29 @@
+#konfigurasi eureka server
+spring:
+  application:
+    name: service-registry
+server:
+  port: 8761
+ 
+eureka:
+  instance:
+    client:
+      registerWithEureka: false
+---
+eureka:
+  instance:
+    client:
+      fetchRegistry: false
+---
+eureka:
+  instance:
+    client:
+      serviceUrl:
+        defaultZone: http://localhost:8761/eureka/
+        
+---
+eureka:
+  instance:
+    lease-renewal-interval-in-seconds: 3
+    prefer-ip-address: true
+    
